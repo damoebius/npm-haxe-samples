@@ -1,0 +1,4 @@
+-cp src
+-lib mconsole
+-js main.js
+-main Main

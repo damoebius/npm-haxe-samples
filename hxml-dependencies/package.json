@@ -1,0 +1,21 @@
+{
+  "name": "testnpmhx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts":{
+    "postinstall": "haxelib --always install mybuild.hxml",
+    "build": "haxe mybuild.hxml"
+  },
+  "dependencies": {
+    "haxe": "^5.0.0"
+  },
+ "haxeDependencies": {
+   "haxe": "3.4.7",
+   "haxelib": "3.3.0",
+   "neko": "2.2.0"
+ },
+  "author": "",
+  "license": "ISC"
+}
+
